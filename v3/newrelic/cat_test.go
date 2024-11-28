@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/crossagent"
+	"github.com/alvintzz/go-agent/v3/internal"
+	"github.com/alvintzz/go-agent/v3/internal/crossagent"
 )
 
 type eventAttributes map[string]interface{}

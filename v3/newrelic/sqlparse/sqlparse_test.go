@@ -6,7 +6,7 @@ package sqlparse
 import (
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal/crossagent"
+	"github.com/alvintzz/go-agent/v3/internal/crossagent"
 	newrelic "github.com/newrelic/go-agent/v3/newrelic"
 )
 

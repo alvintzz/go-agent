@@ -6,7 +6,7 @@ package newrelic
 import (
 	"io"
 
-	"github.com/newrelic/go-agent/v3/internal/logger"
+	"github.com/alvintzz/go-agent/v3/internal/logger"
 )
 
 // Logger is the interface that is used for logging in the Go Agent.  Assign

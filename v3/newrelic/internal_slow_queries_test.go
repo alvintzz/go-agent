@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/crossagent"
+	"github.com/alvintzz/go-agent/v3/internal"
+	"github.com/alvintzz/go-agent/v3/internal/crossagent"
 )
 
 func TestSlowQueryBasic(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/cat"
-	"github.com/newrelic/go-agent/v3/internal/jsonx"
-	"github.com/newrelic/go-agent/v3/internal/logger"
+	"github.com/alvintzz/go-agent/v3/internal"
+	"github.com/alvintzz/go-agent/v3/internal/cat"
+	"github.com/alvintzz/go-agent/v3/internal/jsonx"
+	"github.com/alvintzz/go-agent/v3/internal/logger"
 )
 
 // txnEvent represents a transaction.

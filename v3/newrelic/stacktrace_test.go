@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal/stacktracetest"
+	"github.com/alvintzz/go-agent/v3/internal/stacktracetest"
 )
 
 func TestGetStackTrace(t *testing.T) {
@@ -62,8 +62,8 @@ func TestStacktraceFrames(t *testing.T) {
 	// This stacktrace taken from Go 1.13
 	inputFrames := []StacktraceFrame{
 		{
-			File: "/Users/will/Desktop/gopath/src/github.com/newrelic/go-agent/v3/internal/stacktrace.go",
-			Name: "github.com/newrelic/go-agent/v3/internal.GetStackTrace",
+			File: "/Users/will/Desktop/gopath/src/github.com/alvintzz/go-agent/v3/internal/stacktrace.go",
+			Name: "github.com/alvintzz/go-agent/v3/internal.GetStackTrace",
 			Line: 18,
 		},
 		{

@@ -1,4 +1,4 @@
-// Copyright 2020 New Relic Corporation. All rights reserved.
+s// Copyright 2020 New Relic Corporation. All rights reserved.
 // SPDX-License-Identifier: Apache-2.0
 
 package newrelic
@@ -20,8 +20,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	v1 "github.com/newrelic/go-agent/v3/internal/com_newrelic_trace_v1"
+	"github.com/alvintzz/go-agent/v3/internal"
+	v1 "github.com/alvintzz/go-agent/v3/internal/com_newrelic_trace_v1"
 )
 
 type gRPCtraceObserver struct {

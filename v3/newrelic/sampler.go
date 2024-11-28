@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal/sysinfo"
+	"github.com/alvintzz/go-agent/v3/internal/sysinfo"
 )
 
 // systemSample is a system/runtime snapshot.

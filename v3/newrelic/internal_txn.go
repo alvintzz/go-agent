@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal"
+	"github.com/alvintzz/go-agent/v3/internal"
 )
 
 type txn struct {

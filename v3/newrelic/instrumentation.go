@@ -6,7 +6,7 @@ package newrelic
 import (
 	"net/http"
 
-	"github.com/newrelic/go-agent/v3/internal"
+	"github.com/alvintzz/go-agent/v3/internal"
 )
 
 // instrumentation.go contains helpers built on the lower level api.

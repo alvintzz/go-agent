@@ -40,7 +40,7 @@ func (f StacktraceFrame) isAgent() bool {
 	// Note this is not a contains conditional rather than a prefix
 	// conditional to handle anonymous functions like:
 	// "go.(*struct { github.com/newrelic/go-agent.threadWithExtras }).NoticeError"
-	return strings.Contains(f.Name, "github.com/newrelic/go-agent/v3/internal.") ||
+	return strings.Contains(f.Name, "github.com/alvintzz/go-agent/v3/internal.") ||
 		strings.Contains(f.Name, "github.com/newrelic/go-agent/v3/newrelic.")
 }
 
